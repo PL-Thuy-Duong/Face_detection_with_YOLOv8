@@ -1,0 +1,53 @@
+2023-11-18 14:09:58,706 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-18 14:09:58,707 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Configure stats pid to 55489
+2023-11-18 14:09:58,707 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-11-18 14:09:58,707 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Loading settings from /content/wandb/settings
+2023-11-18 14:09:58,707 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-18 14:09:58,707 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-11-18 14:09:58,707 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-11-18 14:09:58,708 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-11-18 14:09:58,708 INFO    MainThread:55489 [wandb_init.py:_log_setup():524] Logging user logs to /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_140958-mqrju4s6/logs/debug.log
+2023-11-18 14:09:58,708 INFO    MainThread:55489 [wandb_init.py:_log_setup():525] Logging internal logs to /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_140958-mqrju4s6/logs/debug-internal.log
+2023-11-18 14:09:58,709 INFO    MainThread:55489 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7e5b76755f60>
+2023-11-18 14:09:58,709 INFO    MainThread:55489 [wandb_init.py:init():564] calling init triggers
+2023-11-18 14:09:58,710 INFO    MainThread:55489 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'task': 'detect', 'mode': 'train', 'model': 'yolov8s.yaml', 'data': '/content/drive/MyDrive/Colab_Notebooks/LTPython/data/config.yaml', 'epochs': 100, 'patience': 50, 'batch': 16, 'imgsz': 640, 'save': True, 'save_period': -1, 'cache': False, 'device': None, 'workers': 8, 'project': None, 'name': 'train2', 'exist_ok': False, 'pretrained': True, 'optimizer': 'auto', 'verbose': True, 'seed': 0, 'deterministic': True, 'single_cls': False, 'rect': False, 'cos_lr': False, 'close_mosaic': 10, 'resume': None, 'amp': True, 'fraction': 1.0, 'profile': False, 'freeze': None, 'overlap_mask': True, 'mask_ratio': 4, 'dropout': 0.0, 'val': True, 'split': 'val', 'save_json': False, 'save_hybrid': False, 'conf': 0.001, 'iou': 0.5, 'max_det': 300, 'half': False, 'dnn': False, 'plots': True, 'source': None, 'show': False, 'save_txt': False, 'save_conf': False, 'save_crop': False, 'show_labels': True, 'show_conf': True, 'vid_stride': 1, 'stream_buffer': False, 'line_width': None, 'visualize': False, 'augment': False, 'agnostic_nms': False, 'classes': None, 'retina_masks': False, 'boxes': True, 'format': 'torchscript', 'keras': False, 'optimize': False, 'int8': False, 'dynamic': False, 'simplify': False, 'opset': None, 'workspace': 4, 'nms': False, 'lr0': 0.01, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 7.5, 'cls': 0.5, 'dfl': 1.5, 'pose': 12.0, 'kobj': 1.0, 'label_smoothing': 0.0, 'nbs': 64, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0, 'cfg': None, 'tracker': 'botsort.yaml', 'save_dir': 'runs/detect/train2'}
+2023-11-18 14:09:58,710 INFO    MainThread:55489 [wandb_init.py:init():614] starting backend
+2023-11-18 14:09:58,710 INFO    MainThread:55489 [wandb_init.py:init():618] setting up manager
+2023-11-18 14:09:58,716 INFO    MainThread:55489 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-11-18 14:09:58,940 ERROR   MainThread:55489 [wandb_init.py:init():1194] error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/wandb/sdk/wandb_init.py", line 1166, in init
+  File "/usr/local/lib/python3.10/dist-packages/wandb/sdk/wandb_init.py", line 623, in init
+  File "/usr/local/lib/python3.10/dist-packages/wandb/sdk/backend/backend.py", line 162, in ensure_launched
+  File "/usr/local/lib/python3.10/dist-packages/wandb/sdk/backend/backend.py", line 150, in _ensure_launched_manager
+ModuleNotFoundError: No module named 'wandb.sdk.interface.interface_sock'
+2023-11-18 14:12:04,083 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-18 14:12:04,084 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Configure stats pid to 55489
+2023-11-18 14:12:04,084 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-11-18 14:12:04,084 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Loading settings from /content/wandb/settings
+2023-11-18 14:12:04,084 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-18 14:12:04,084 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-11-18 14:12:04,084 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-11-18 14:12:04,085 INFO    MainThread:55489 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-11-18 14:12:04,085 INFO    MainThread:55489 [wandb_init.py:_log_setup():524] Logging user logs to /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_141204-aagbp830/logs/debug.log
+2023-11-18 14:12:04,086 INFO    MainThread:55489 [wandb_init.py:_log_setup():525] Logging internal logs to /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_141204-aagbp830/logs/debug-internal.log
+2023-11-18 14:12:04,086 INFO    MainThread:55489 [wandb_init.py:init():564] calling init triggers
+2023-11-18 14:12:04,086 INFO    MainThread:55489 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'task': 'detect', 'mode': 'train', 'model': 'yolov8s.yaml', 'data': '/content/drive/MyDrive/Colab_Notebooks/LTPython/data/config.yaml', 'epochs': 100, 'patience': 50, 'batch': 16, 'imgsz': 640, 'save': True, 'save_period': -1, 'cache': False, 'device': None, 'workers': 8, 'project': None, 'name': 'train3', 'exist_ok': False, 'pretrained': True, 'optimizer': 'auto', 'verbose': True, 'seed': 0, 'deterministic': True, 'single_cls': False, 'rect': False, 'cos_lr': False, 'close_mosaic': 10, 'resume': None, 'amp': True, 'fraction': 1.0, 'profile': False, 'freeze': None, 'overlap_mask': True, 'mask_ratio': 4, 'dropout': 0.0, 'val': True, 'split': 'val', 'save_json': False, 'save_hybrid': False, 'conf': 0.001, 'iou': 0.5, 'max_det': 300, 'half': False, 'dnn': False, 'plots': True, 'source': None, 'show': False, 'save_txt': False, 'save_conf': False, 'save_crop': False, 'show_labels': True, 'show_conf': True, 'vid_stride': 1, 'stream_buffer': False, 'line_width': None, 'visualize': False, 'augment': False, 'agnostic_nms': False, 'classes': None, 'retina_masks': False, 'boxes': True, 'format': 'torchscript', 'keras': False, 'optimize': False, 'int8': False, 'dynamic': False, 'simplify': False, 'opset': None, 'workspace': 4, 'nms': False, 'lr0': 0.01, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 7.5, 'cls': 0.5, 'dfl': 1.5, 'pose': 12.0, 'kobj': 1.0, 'label_smoothing': 0.0, 'nbs': 64, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0, 'cfg': None, 'tracker': 'botsort.yaml', 'save_dir': 'runs/detect/train3'}
+2023-11-18 14:12:04,086 INFO    MainThread:55489 [wandb_init.py:init():614] starting backend
+2023-11-18 14:12:04,087 INFO    MainThread:55489 [wandb_init.py:init():618] setting up manager
+2023-11-18 14:12:04,091 INFO    MainThread:55489 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-11-18 14:12:04,095 INFO    MainThread:55489 [wandb_init.py:init():624] backend started and connected
+2023-11-18 14:12:04,127 INFO    MainThread:55489 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-11-18 14:12:09,138 INFO    MainThread:55489 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-11-18 14:12:09,138 INFO    MainThread:55489 [wandb_init.py:init():716] updated telemetry
+2023-11-18 14:12:09,167 INFO    MainThread:55489 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-11-18 14:12:09,864 INFO    MainThread:55489 [wandb_run.py:_on_init():2254] communicating current version
+2023-11-18 14:12:10,007 INFO    MainThread:55489 [wandb_run.py:_on_init():2263] got version response 
+2023-11-18 14:12:10,007 INFO    MainThread:55489 [wandb_init.py:init():800] starting run threads in backend
+2023-11-18 14:12:10,094 INFO    MainThread:55489 [wandb_run.py:_console_start():2233] atexit reg
+2023-11-18 14:12:10,096 INFO    MainThread:55489 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-11-18 14:12:10,096 INFO    MainThread:55489 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-11-18 14:12:10,097 INFO    MainThread:55489 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-11-18 14:12:10,098 INFO    MainThread:55489 [wandb_init.py:init():841] run started, returning control to user process

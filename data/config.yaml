@@ -1,0 +1,8 @@
+# Train/val/test sets
+train: '/content/drive/MyDrive/Colab_Notebooks/LTPython/data/images/train'
+val: '/content/drive/MyDrive/Colab_Notebooks/LTPython/data/images/validation'
+test: '/content/drive/MyDrive/Colab_Notebooks/LTPython/data/images/test'
+
+# Classes
+names:
+  0: face

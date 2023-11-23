@@ -1,0 +1,31 @@
+2023-11-18 14:02:23,270 INFO    StreamThr :1030 [internal.py:wandb_internal():86] W&B internal server running at pid: 1030, started at: 2023-11-18 14:02:23.262915
+2023-11-18 14:02:23,273 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status
+2023-11-18 14:02:28,278 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:02:28,278 INFO    WriterThread:1030 [datastore.py:open_for_write():85] open: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_140223-7i4g8pge/run-7i4g8pge.wandb
+2023-11-18 14:02:33,279 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:02:38,279 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:02:43,280 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:02:48,281 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:02:53,281 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:02:58,282 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:03,283 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:08,283 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:13,284 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:18,285 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:23,286 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:28,287 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:33,288 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:38,289 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:43,290 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:48,291 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:53,291 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:03:58,292 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:04:03,293 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:04:08,294 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:04:13,295 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:04:18,295 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:04:23,296 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:04:27,193 DEBUG   HandlerThread:1030 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-18 14:04:27,194 INFO    HandlerThread:1030 [handler.py:finish():866] shutting down handler
+2023-11-18 14:04:27,296 INFO    SenderThread:1030 [sender.py:finish():1536] shutting down sender
+2023-11-18 14:04:27,297 INFO    WriterThread:1030 [datastore.py:close():294] close: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_140223-7i4g8pge/run-7i4g8pge.wandb

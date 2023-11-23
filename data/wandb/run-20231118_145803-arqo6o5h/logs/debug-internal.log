@@ -1,0 +1,119 @@
+2023-11-18 14:58:03,809 INFO    StreamThr :1298 [internal.py:wandb_internal():86] W&B internal server running at pid: 1298, started at: 2023-11-18 14:58:03.785907
+2023-11-18 14:58:03,867 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status
+2023-11-18 14:58:06,447 INFO    WriterThread:1298 [datastore.py:open_for_write():85] open: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/run-arqo6o5h.wandb
+2023-11-18 14:58:06,451 DEBUG   SenderThread:1298 [sender.py:send():380] send: header
+2023-11-18 14:58:06,463 DEBUG   SenderThread:1298 [sender.py:send():380] send: run
+2023-11-18 14:58:07,155 INFO    SenderThread:1298 [dir_watcher.py:__init__():211] watching files in: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/files
+2023-11-18 14:58:07,157 INFO    SenderThread:1298 [sender.py:_start_run_threads():1124] run started: arqo6o5h with start time 1700319483.784515
+2023-11-18 14:58:07,338 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: check_version
+2023-11-18 14:58:07,339 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: check_version
+2023-11-18 14:58:08,011 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: run_start
+2023-11-18 14:58:08,013 DEBUG   HandlerThread:1298 [system_info.py:__init__():32] System info init
+2023-11-18 14:58:08,014 DEBUG   HandlerThread:1298 [system_info.py:__init__():47] System info init done
+2023-11-18 14:58:08,023 INFO    HandlerThread:1298 [system_monitor.py:start():194] Starting system monitor
+2023-11-18 14:58:08,030 INFO    SystemMonitor:1298 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-18 14:58:08,031 INFO    HandlerThread:1298 [system_monitor.py:probe():214] Collecting system info
+2023-11-18 14:58:08,034 DEBUG   HandlerThread:1298 [system_info.py:probe():196] Probing system
+2023-11-18 14:58:08,039 DEBUG   HandlerThread:1298 [gitlib.py:_init_repo():56] git repository is invalid
+2023-11-18 14:58:08,039 DEBUG   HandlerThread:1298 [system_info.py:probe():244] Probing system done
+2023-11-18 14:58:08,039 DEBUG   HandlerThread:1298 [system_monitor.py:probe():223] {'os': 'Linux-5.15.120+-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2023-11-18T14:58:08.034259', 'startedAt': '2023-11-18T14:58:03.690293', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'face-detection.ipynb', 'codePathLocal': None, 'colab': 'https://colab.research.google.com/notebook#fileId=1UIqQjqL6Ye8Glmv7mbvKrgQzEMp6az4k', 'host': 'd46a8e1fb1b0', 'username': 'root', 'executable': '/usr/bin/python3', 'cpu_count': 1, 'cpu_count_logical': 2, 'cpu_freq': {'current': 2200.178, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2200.178, 'min': 0.0, 'max': 0.0}, {'current': 2200.178, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 107.71508407592773, 'used': 26.96792984008789}}, 'memory': {'total': 12.6783447265625}}
+2023-11-18 14:58:08,039 INFO    HandlerThread:1298 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-18 14:58:08,039 INFO    HandlerThread:1298 [system_monitor.py:probe():227] Publishing system info
+2023-11-18 14:58:08,040 DEBUG   HandlerThread:1298 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-18 14:58:08,042 INFO    SystemMonitor:1298 [interfaces.py:start():190] Started cpu monitoring
+2023-11-18 14:58:08,105 INFO    SystemMonitor:1298 [interfaces.py:start():190] Started disk monitoring
+2023-11-18 14:58:08,117 INFO    SystemMonitor:1298 [interfaces.py:start():190] Started memory monitoring
+2023-11-18 14:58:08,123 DEBUG   HandlerThread:1298 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-18 14:58:08,124 INFO    SystemMonitor:1298 [interfaces.py:start():190] Started network monitoring
+2023-11-18 14:58:08,171 INFO    Thread-12 :1298 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/files/requirements.txt
+2023-11-18 14:58:08,173 INFO    Thread-12 :1298 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/files/wandb-metadata.json
+2023-11-18 14:58:08,187 INFO    HandlerThread:1298 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-18 14:58:08,209 DEBUG   SenderThread:1298 [sender.py:send():380] send: files
+2023-11-18 14:58:08,209 INFO    SenderThread:1298 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-18 14:58:08,324 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-18 14:58:08,332 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: stop_status
+2023-11-18 14:58:08,355 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-18 14:58:09,245 DEBUG   SenderThread:1298 [sender.py:send():380] send: telemetry
+2023-11-18 14:58:09,246 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:58:09,479 INFO    wandb-upload_0:1298 [upload_job.py:push():131] Uploaded file /tmp/tmpvst5x789wandb/djaa80fz-wandb-metadata.json
+2023-11-18 14:58:10,197 INFO    Thread-12 :1298 [dir_watcher.py:_on_file_created():271] file/dir created: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/files/output.log
+2023-11-18 14:58:14,750 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:58:15,733 DEBUG   SenderThread:1298 [sender.py:send():380] send: telemetry
+2023-11-18 14:58:15,802 DEBUG   SenderThread:1298 [sender.py:send():380] send: telemetry
+2023-11-18 14:58:16,345 INFO    Thread-12 :1298 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/files/output.log
+2023-11-18 14:58:17,591 DEBUG   SenderThread:1298 [sender.py:send():380] send: telemetry
+2023-11-18 14:58:17,802 DEBUG   SenderThread:1298 [sender.py:send():380] send: telemetry
+2023-11-18 14:58:19,352 INFO    Thread-12 :1298 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/files/output.log
+2023-11-18 14:58:19,807 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:58:23,324 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-18 14:58:23,325 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: stop_status
+2023-11-18 14:58:23,329 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-18 14:58:23,363 INFO    Thread-12 :1298 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/files/output.log
+2023-11-18 14:58:25,437 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:58:27,374 INFO    Thread-12 :1298 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/files/output.log
+2023-11-18 14:58:30,692 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:58:35,397 INFO    Thread-12 :1298 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/files/output.log
+2023-11-18 14:58:36,642 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:58:37,403 INFO    Thread-12 :1298 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/files/config.yaml
+2023-11-18 14:58:38,325 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-18 14:58:38,326 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: stop_status
+2023-11-18 14:58:38,329 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-18 14:58:42,441 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:58:47,444 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:58:52,452 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:58:53,326 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-18 14:58:53,327 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: stop_status
+2023-11-18 14:58:53,367 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-18 14:58:58,399 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:59:03,399 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:59:08,126 DEBUG   SystemMonitor:1298 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-18 14:59:08,130 DEBUG   SenderThread:1298 [sender.py:send():380] send: stats
+2023-11-18 14:59:08,327 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-18 14:59:08,328 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: stop_status
+2023-11-18 14:59:08,368 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-18 14:59:08,464 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:59:13,465 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:59:18,466 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:59:23,326 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-18 14:59:23,326 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: stop_status
+2023-11-18 14:59:23,367 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-18 14:59:24,408 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:59:29,409 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:59:34,410 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:59:38,130 DEBUG   SenderThread:1298 [sender.py:send():380] send: stats
+2023-11-18 14:59:38,326 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-18 14:59:38,327 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: stop_status
+2023-11-18 14:59:38,367 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-18 14:59:40,398 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:59:45,515 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:59:50,522 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 14:59:52,019 INFO    Thread-12 :1298 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/drive/MyDrive/Colab_Notebooks/LTPython/data/wandb/run-20231118_145803-arqo6o5h/files/output.log
+2023-11-18 14:59:56,127 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-18 15:00:04,165 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-18 15:00:04,846 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 15:00:04,165 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: stop_status
+2023-11-18 15:00:04,982 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-18 15:00:05,021 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 15:00:05,022 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-18 15:00:06,124 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 15:00:08,131 DEBUG   SenderThread:1298 [sender.py:send():380] send: stats
+2023-11-18 15:00:08,326 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-18 15:00:08,327 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: stop_status
+2023-11-18 15:00:11,401 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 15:00:16,402 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 15:00:21,403 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 15:00:23,326 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-18 15:00:23,327 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: stop_status
+2023-11-18 15:00:26,479 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 15:00:31,480 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 15:00:36,481 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 15:00:38,132 DEBUG   SenderThread:1298 [sender.py:send():380] send: stats
+2023-11-18 15:00:38,327 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-18 15:00:38,327 DEBUG   SenderThread:1298 [sender.py:send_request():407] send_request: stop_status
+2023-11-18 15:00:41,485 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 15:00:46,486 DEBUG   HandlerThread:1298 [handler.py:handle_request():146] handle_request: status_report
+2023-11-18 15:00:50,108 INFO    cpu       :1298 [interfaces.py:monitor():140] Process cpu has exited.
+2023-11-18 15:00:50,109 DEBUG   SystemMonitor:1298 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-18 15:00:50,110 DEBUG   SystemMonitor:1298 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-18 15:00:50,111 DEBUG   SenderThread:1298 [sender.py:send():380] send: stats
+2023-11-18 15:00:51,067 INFO    MainThread:1298 [internal.py:handle_exit():76] Internal process exited
